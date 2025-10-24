@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hudson's Winter Deals</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #cfe9ff, #f9fdff);
+      color: #222;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 2rem 1rem;
+      border-bottom: 5px solid #b3e0ff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin: 3rem auto;
+      max-width: 1000px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      width: 250px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 220px;
+      object-fit: cover;
+    }
+    .card h2 {
+      margin: 0.5rem 0;
+      color: #1e90ff;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    button {
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #187bcd;
+    }
+    footer {
+      background-color: #f0f8ff;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #333;
+      margin-top: 3rem;
+      border-top: 3px solid #b3e0ff;
+    }
+    .contact {
+      margin: 2rem 0;
+    }
+    a.button-link {
+      background-color: #1e90ff;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    a.button-link:hover {
+      background-color: #187bcd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hudson's Winter Deals</h1>
+    <p>Stay warm this winter with affordable jackets, hoodies, and gloves!</p>
+  </header>
+
+  <section class="products">
+    <div class="card">
+      <img src="your-jacket-photo.jpg" alt="Jacket" />
+      <h2>Winter Jacket</h2>
+      <p class="price">$40</p>
+      <p>Cozy and warm for those cold days.</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="your-hoodie-photo.jpg" alt="Hoodie" />
+      <h2>Winter Hoodie</h2>
+      <p class="price">$25</p>
+      <p>Perfect for layering or casual wear.</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="your-gloves-photo.jpg" alt="Gloves" />
+      <h2>Winter Gloves</h2>
+      <p class="price">$10 - $15</p>
+      <p>Keep your hands warm all season long.</p>
+      <button>Buy Now</button>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Hudson</h2>
+    <p>Have a question or want to order directly?</p>
+    <a class="button-link" href="mailto:hudsonswinterdeals@gmail.com">Email Hudson</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Hudson's Winter Deals | Safe local sales & Cash App payments</p>
+  </footer>
+</body>
+</html>
